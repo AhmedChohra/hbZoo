@@ -1,0 +1,12 @@
+{
+  "name": "electronzoo",
+  "version": "1.0.0",
+  "description": "Gestion de média",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^8.2.5"
+  }
+}

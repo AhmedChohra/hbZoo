@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectronZoo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-primary bg-dark">
+        <ul class="nav">
+            <li class="nav-item text-light m-3">
+                <h3>ElectronZoo</h3>
+            </li>
+            <li class="nav-item  m-4">
+                <a class="text-light text-decoration-none" id="add-item" href="#">Ajouter un animal</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div id="elements" class="d-flex flex-row flex flex-wrap">
+            </div>
+        </div>
+    </div>
+    <script>
+        require('./index')
+    </script>
+</body>
+
+</html>

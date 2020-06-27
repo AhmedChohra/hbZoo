@@ -1,0 +1,19 @@
+
+.card{
+    margin: 15px;
+    width: 18rem;
+}
+
+img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#add-item {
+    color: white !important;
+}
+
+body{
+    font-family: 'Baloo 2', cursive;
+}
